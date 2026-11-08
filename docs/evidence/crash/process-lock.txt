@@ -1,0 +1,12 @@
+CHILD> READY
+PARENT> 1 PUT survives-owner CQ==
+CHILD> ISSUED 1
+CHILD> ACK 1 1
+PARENT> destroyForcibly; exit=1
+CHILD> <EOF>
+
+reopened-second-child:
+CHILD> READY
+PARENT> 1 CLOSE
+CHILD> ISSUED 1
+CHILD> CLOSED

@@ -1,0 +1,9 @@
+seed=none
+authority=old
+highWater=6
+CHILD> READY
+PARENT> 1 COMPACT
+CHILD> ISSUED 1
+CHILD> PAUSE compact.generation.validated
+PARENT> destroyForcibly; exit=1
+CHILD> <EOF>

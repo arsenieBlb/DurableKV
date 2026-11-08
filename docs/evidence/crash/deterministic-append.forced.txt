@@ -1,0 +1,16 @@
+seed=none
+acknowledged=1
+issued=2
+CHILD> READY
+PARENT> 1 PUT unique-1 AP8q
+CHILD> ISSUED 1
+CHILD> ACK 1 1
+PARENT> 2 PUT unique-2 CAcG
+CHILD> ISSUED 2
+CHILD> PAUSE append.forced
+PARENT> destroyForcibly; exit=1
+CHILD> <EOF>
+
+recoveredSequence=2
+matchedPrefix=2
+recovered={unique-2=CAcG, unique-1=AP8q}

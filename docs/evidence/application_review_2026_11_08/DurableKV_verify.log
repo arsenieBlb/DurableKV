@@ -1,0 +1,50 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< io.durablekv:durablekv >-----------------------
+[INFO] Building durablekv 1.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ durablekv ---
+[INFO] skip non existing resourceDirectory C:\Users\bilba\Documents\Projects\DurableKV\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ durablekv ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ durablekv ---
+[INFO] skip non existing resourceDirectory C:\Users\bilba\Documents\Projects\DurableKV\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ durablekv ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ durablekv ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.durablekv.CliTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.368 s -- in io.durablekv.CliTest
+[INFO] Running io.durablekv.ConcurrencyTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.451 s -- in io.durablekv.ConcurrencyTest
+[INFO] Running io.durablekv.CrashTest
+[INFO] Tests run: 97, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.87 s -- in io.durablekv.CrashTest
+[INFO] Running io.durablekv.EngineTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.484 s -- in io.durablekv.EngineTest
+[INFO] Running io.durablekv.FramingTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.806 s -- in io.durablekv.FramingTest
+[INFO] Running io.durablekv.IoFailureTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.409 s -- in io.durablekv.IoFailureTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 131, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ durablekv ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  35.550 s
+[INFO] Finished at: 2026-11-08T16:22:32+01:00
+[INFO] ------------------------------------------------------------------------

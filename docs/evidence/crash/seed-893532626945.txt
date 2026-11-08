@@ -1,0 +1,22 @@
+seed=893532626945
+acknowledged=3
+issued=4
+CHILD> READY
+PARENT> 1 PUT k4 5GFXULSAXXjft4FwdtSHTDFt/wlnbZufKTNyzmwc6TOIzNn9
+CHILD> ISSUED 1
+CHILD> ACK 1 1
+PARENT> 2 PUT k1 nGBe5df1/VvBIvAtV30C01VjHMthyKZhkJFMBjYZWALTXgUlnm1sXefQmKAHVA0gsRDCtS62
+CHILD> ISSUED 2
+CHILD> ACK 2 2
+PARENT> 3 PUT k1 TydUxcmhEwDeOJYlyLgojUvhpQ8HbwKzGBRrgIokk8Qx+abJOsW3chXRKA==
+CHILD> ISSUED 3
+CHILD> ACK 3 3
+PARENT> 4 DELETE k0
+CHILD> ISSUED 4
+CHILD> PAUSE append.complete
+PARENT> destroyForcibly; exit=1
+CHILD> <EOF>
+
+recoveredSequence=4
+matchedPrefix=4
+recovered={k1=TydUxcmhEwDeOJYlyLgojUvhpQ8HbwKzGBRrgIokk8Qx+abJOsW3chXRKA==, k4=5GFXULSAXXjft4FwdtSHTDFt/wlnbZufKTNyzmwc6TOIzNn9}

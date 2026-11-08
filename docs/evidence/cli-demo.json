@@ -1,0 +1,83 @@
+[
+  {
+    "arguments": [
+      "put",
+      "target/cli-demo",
+      "greeting",
+      "hello"
+    ],
+    "exitCode": 0,
+    "output": "1"
+  },
+  {
+    "arguments": [
+      "get",
+      "target/cli-demo",
+      "greeting",
+      "--utf8"
+    ],
+    "exitCode": 0,
+    "output": "hello"
+  },
+  {
+    "arguments": [
+      "put",
+      "target/cli-demo",
+      "binary",
+      "--base64",
+      "AAH/"
+    ],
+    "exitCode": 0,
+    "output": "2"
+  },
+  {
+    "arguments": [
+      "get",
+      "target/cli-demo",
+      "binary"
+    ],
+    "exitCode": 0,
+    "output": "AAH/"
+  },
+  {
+    "arguments": [
+      "delete",
+      "target/cli-demo",
+      "greeting"
+    ],
+    "exitCode": 0,
+    "output": "3"
+  },
+  {
+    "arguments": [
+      "stats",
+      "target/cli-demo"
+    ],
+    "exitCode": 0,
+    "output": "Stats[generation=3d15ebd7-bfe5-4f21-ac7f-c54f22590309, sequence=3, liveKeys=1, logBytes=182, records=3, liveValueBytes=3]"
+  },
+  {
+    "arguments": [
+      "compact",
+      "target/cli-demo"
+    ],
+    "exitCode": 0,
+    "output": "Stats[generation=e127a55d-69ba-45ad-bca0-bf9454aa07fa, sequence=3, liveKeys=1, logBytes=97, records=1, liveValueBytes=3]"
+  },
+  {
+    "arguments": [
+      "inspect",
+      "target/cli-demo"
+    ],
+    "exitCode": 0,
+    "output": "Inspection[stats=Stats[generation=e127a55d-69ba-45ad-bca0-bf9454aa07fa, sequence=3, liveKeys=1, logBytes=97, records=1, liveValueBytes=3], incompleteTailBytes=0]"
+  },
+  {
+    "arguments": [
+      "recover",
+      "target/cli-demo"
+    ],
+    "exitCode": 0,
+    "output": "Stats[generation=e127a55d-69ba-45ad-bca0-bf9454aa07fa, sequence=3, liveKeys=1, logBytes=97, records=1, liveValueBytes=3]"
+  }
+]

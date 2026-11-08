@@ -1,0 +1,5 @@
+seed=none
+expected=empty committed store
+CHILD> PAUSE init.cleaned
+PARENT> destroyForcibly; exit=1
+CHILD> <EOF>

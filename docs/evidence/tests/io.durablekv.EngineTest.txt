@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: io.durablekv.EngineTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.952 s -- in io.durablekv.EngineTest

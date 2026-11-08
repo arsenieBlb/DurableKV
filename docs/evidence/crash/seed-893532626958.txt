@@ -1,0 +1,28 @@
+seed=893532626958
+acknowledged=5
+issued=6
+CHILD> READY
+PARENT> 1 DELETE k2
+CHILD> ISSUED 1
+CHILD> ACK 1 1
+PARENT> 2 PUT k4 SMbw+xJf51bf1HHqu4mS9PebVSvt9kRCidJbFxgZbBrn4HZkaCo=
+CHILD> ISSUED 2
+CHILD> ACK 2 2
+PARENT> 3 PUT k0 w6toye3e6JdgSQ==
+CHILD> ISSUED 3
+CHILD> ACK 3 3
+PARENT> 4 PUT k3 xyYpsXtiDpo0HnN5ZjBJerg=
+CHILD> ISSUED 4
+CHILD> ACK 4 4
+PARENT> 5 PUT k4 uJj5xAus4xqg9mTuEDtV1TYPjcQ0EEAugtjOxRO3FeTv5S8gUidUTmzc0VW4n0lclBtSdYRfxA==
+CHILD> ISSUED 5
+CHILD> ACK 5 5
+PARENT> 6 PUT k0 p6eKtoPSN0VjjhRlrxkQ36A5qth5wn46y9m/h4XWMwj5NaXq0aM1fMX4/IQKiEE=
+CHILD> ISSUED 6
+CHILD> PAUSE append.forced
+PARENT> destroyForcibly; exit=1
+CHILD> <EOF>
+
+recoveredSequence=6
+matchedPrefix=6
+recovered={k0=p6eKtoPSN0VjjhRlrxkQ36A5qth5wn46y9m/h4XWMwj5NaXq0aM1fMX4/IQKiEE=, k3=xyYpsXtiDpo0HnN5ZjBJerg=, k4=uJj5xAus4xqg9mTuEDtV1TYPjcQ0EEAugtjOxRO3FeTv5S8gUidUTmzc0VW4n0lclBtSdYRfxA==}

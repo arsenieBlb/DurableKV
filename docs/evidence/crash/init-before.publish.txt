@@ -1,0 +1,5 @@
+seed=none
+expected=missing metadata; preserved files
+CHILD> PAUSE init.before.publish
+PARENT> destroyForcibly; exit=1
+CHILD> <EOF>

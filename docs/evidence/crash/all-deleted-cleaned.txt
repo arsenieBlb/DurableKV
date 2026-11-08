@@ -1,0 +1,8 @@
+seed=none
+highWater=3
+CHILD> READY
+PARENT> 1 COMPACT
+CHILD> ISSUED 1
+CHILD> PAUSE compact.cleaned
+PARENT> destroyForcibly; exit=1
+CHILD> <EOF>

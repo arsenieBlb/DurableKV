@@ -1,0 +1,22 @@
+seed=893532626971
+acknowledged=3
+issued=4
+CHILD> READY
+PARENT> 1 DELETE k1
+CHILD> ISSUED 1
+CHILD> ACK 1 1
+PARENT> 2 DELETE k4
+CHILD> ISSUED 2
+CHILD> ACK 2 2
+PARENT> 3 PUT k0 qqTVnnsx3uthaa6DpClKecD+8/3csoUcSicVAoS9
+CHILD> ISSUED 3
+CHILD> ACK 3 3
+PARENT> 4 PUT k0 NWat3XT2qq7wccQo/JOrA0S2rA==
+CHILD> ISSUED 4
+CHILD> PAUSE append.indexed
+PARENT> destroyForcibly; exit=1
+CHILD> <EOF>
+
+recoveredSequence=4
+matchedPrefix=4
+recovered={k0=NWat3XT2qq7wccQo/JOrA0S2rA==}

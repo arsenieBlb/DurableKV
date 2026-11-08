@@ -1,0 +1,5 @@
+seed=none
+expected=missing metadata; preserved files
+CHILD> PAUSE init.generation.created
+PARENT> destroyForcibly; exit=1
+CHILD> <EOF>

@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-07",
+  "timezone": "Europe/Paris",
+  "java": "BellSoft OpenJDK 21.0.8+12-LTS",
+  "maven": "3.9.11 (wrapper)",
+  "platform": "Windows 11 amd64, NTFS, Samsung SSD 990 PRO 2TB NVMe",
+  "commands": [
+    ".\\mvnw.cmd clean verify",
+    ".\\mvnw.cmd --batch-mode verify"
+  ],
+  "tests": 131,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "crashOwnershipCases": 97,
+  "crashSeeds": 60,
+  "crashTranscripts": 98,
+  "finalJarSha256": "7cc2c954277409b0d3b6dbca3227611ef648e2092a9bd63b913285351bbfdebb",
+  "linux": "Unverified; CI defined but not run",
+  "hardwarePowerLoss": "Not tested; outside demonstrated process-crash contract"
+}

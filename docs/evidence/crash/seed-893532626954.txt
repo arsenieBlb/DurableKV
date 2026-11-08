@@ -1,0 +1,22 @@
+seed=893532626954
+acknowledged=3
+issued=4
+CHILD> READY
+PARENT> 1 DELETE k1
+CHILD> ISSUED 1
+CHILD> ACK 1 1
+PARENT> 2 DELETE k4
+CHILD> ISSUED 2
+CHILD> ACK 2 2
+PARENT> 3 DELETE k0
+CHILD> ISSUED 3
+CHILD> ACK 3 3
+PARENT> 4 PUT k3 DRjUc9GVOJFss8x9urIFyiUYzjRTZL+eWH6SwCJD
+CHILD> ISSUED 4
+CHILD> PAUSE response.before
+PARENT> destroyForcibly; exit=1
+CHILD> <EOF>
+
+recoveredSequence=4
+matchedPrefix=4
+recovered={k3=DRjUc9GVOJFss8x9urIFyiUYzjRTZL+eWH6SwCJD}
